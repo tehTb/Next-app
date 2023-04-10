@@ -1,7 +1,7 @@
 const Me = {
-  name: "Tommy",
-  lastName: "Björk",
-};
+  name: 'Tommy',
+  lastName: 'Björk',
+}
 
 export default function About() {
   return (
@@ -13,5 +13,5 @@ export default function About() {
         {Me.name} {Me.lastName}
       </div>
     </>
-  );
+  )
 }

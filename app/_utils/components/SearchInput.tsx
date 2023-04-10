@@ -1,6 +1,8 @@
+// 'use client';
+
 import Link from 'next/link';
 import { Card } from './Card';
-// import { useState } from "react"
+import { useState } from 'react';
 
 interface searchInputProps {
   placeholder?: string;
@@ -8,7 +10,7 @@ interface searchInputProps {
 }
 
 export const SearchInput = ({ className, placeholder }: searchInputProps) => {
-  // const [textBoxData, setTextBoxData] = useState('')
+  // const [textBoxData, setTextBoxData] = useState('');
   const data = ['TEST01', 'TEST02', 'TEST03'];
   return (
     <>
