@@ -16,6 +16,16 @@
   }
 }
 
+h1 {
+  color: rgb(209 213 219)
+}
+
+div {
+  color: rgb(209 213 219);
+  border-color: rgb(107 114 128);
+}
+
+
 /* body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(

@@ -9,7 +9,7 @@ export default function About() {
       <div className="text-xl font-thin text-white text bg-slate-500 py-10 mt-4">
         About page
       </div>
-      <div className="pt-2">
+      <div className="text-white pt-2">
         {Me.name} {Me.lastName}
       </div>
     </>
