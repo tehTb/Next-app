@@ -1,19 +1,19 @@
 import { MouseEventHandler } from 'react'
 import { variant } from '../enums/variant'
 
-interface buttonProps {
+type buttonType = {
   onClick?: MouseEventHandler<HTMLButtonElement>
   children: React.ReactNode
   className?: string
   buttonVariant?: variant
 }
 
-export const Button = ({
+export function Button({
   onClick,
   className,
   children,
   buttonVariant = variant.primary,
-}: buttonProps) => {
+}: buttonType) {
   let variantCss = ''
 
   switch (buttonVariant) {

@@ -3,11 +3,21 @@ import { getUserPosts } from '@/app/lib/getUserPosts'
 import { Suspense } from 'react'
 import { UserPosts } from './components/UserPosts'
 import { Metadata } from 'next'
+import { getRandomUserData } from '@/app/lib/getRandomData'
 
 type Params = {
   params: {
     userId: string
   }
+}
+
+export async function generateStaticParams() {
+  const userData: Promise<User[]> = getRandomUserData()
+  const users = await userData
+
+  return users.map((user) => ({
+    userId: user.id,
+  }))
 }
 
 export async function generateMetadata({

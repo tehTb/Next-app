@@ -1,4 +1,3 @@
-import Link from 'next/link'
 import './globals.css'
 import { Navbar } from './_utils/components/Navbar'
 import { Metadata } from 'next'
