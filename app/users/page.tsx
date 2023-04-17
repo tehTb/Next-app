@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import { getRandomUserData } from '../lib/getRandomData'
-import { Card } from '../_utils/components/Card'
+import { Card } from '../_shared/components/Card'
 
 export default async function UsersPage() {
   const userData: Promise<User[]> = getRandomUserData()

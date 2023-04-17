@@ -1,4 +1,4 @@
-import { Card } from '@/app/_utils/components/Card'
+import { Card } from '@/app/_shared/components/Card'
 
 interface UserPostsProps {
   promise: Promise<Post[]>

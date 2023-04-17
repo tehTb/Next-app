@@ -1,6 +1,6 @@
-import { Button } from './_utils/components/Button'
-import { Card } from './_utils/components/Card'
-import { SearchInput } from './_utils/components/SearchInput'
+import { Button } from './_shared/components/Button'
+import { Card } from './_shared/components/Card'
+import { SearchInput } from './_shared/components/SearchInput'
 import ServerSelectDropdown from './components/ServerSelectDropdown'
 
 export default async function Home() {

@@ -1,5 +1,5 @@
 import './globals.css'
-import { Navbar } from './_utils/components/Navbar'
+import { Navbar } from './_shared/components/Navbar'
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
